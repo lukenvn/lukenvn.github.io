@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>nvnhung.bitbucket.io</loc>
-	<lastmod>2022-06-24</lastmod>
+	<lastmod>2022-06-28</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -22,7 +22,15 @@
 	<image:title>z3478449016388_bbfda84f1df4dc02966d30304e53ceb7</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>nvnhung.bitbucket.io/img/z3478449085929_c801bd7489fa90ab953ca5b16ced0df6.jpg</image:loc>
+	<image:title>chure.jpeg</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>nvnhung.bitbucket.io/img/z3478449016388_bbfda84f1df4dc02966d30304e53ceb7.jpg</image:loc>
+	<image:title>z3478449016388_bbfda84f1df4dc02966d30304e53ceb7</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>nvnhung.bitbucket.io/img/IMG_20220529_125111.jpeg</image:loc>
 	<image:title>z3478449016388_bbfda84f1df4dc02966d30304e53ceb7</image:title>
 	</image:image>
 	<image:image>
@@ -32,6 +40,10 @@
 	<image:image>
 	<image:loc>nvnhung.bitbucket.io/img/z3478449008572_840119ab67dca9139b8cc92faae76cd0.jpg</image:loc>
 	<image:title>z3478449008572_840119ab67dca9139b8cc92faae76cd0</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>nvnhung.bitbucket.io/img/IMG_20220529_120751.jpg</image:loc>
+	<image:title>z3478449016388_bbfda84f1df4dc02966d30304e53ceb7</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>nvnhung.bitbucket.io/img/z3478449064562_fa4dd25214acef7f50f0a9ba131c8970.jpg</image:loc>
@@ -46,16 +58,20 @@
 	<image:title>z3478449031026_d315821b7667456d69635c77245ce417</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>nvnhung.bitbucket.io/img/z3478449085929_c801bd7489fa90ab953ca5b16ced0df6.jpg</image:loc>
-	<image:title>chure.jpeg</image:title>
+	<image:loc>nvnhung.bitbucket.io/img/church.svg</image:loc>
+	<image:title>church</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>nvnhung.bitbucket.io/img/IMG_20220529_125111.jpeg</image:loc>
-	<image:title>z3478449016388_bbfda84f1df4dc02966d30304e53ceb7</image:title>
+	<image:loc>nvnhung.bitbucket.io/img/bride.svg</image:loc>
+	<image:title>bride</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>nvnhung.bitbucket.io/img/IMG_20220529_120751.jpg</image:loc>
-	<image:title>z3478449016388_bbfda84f1df4dc02966d30304e53ceb7</image:title>
+	<image:loc>nvnhung.bitbucket.io/img/groom.svg</image:loc>
+	<image:title>groom</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>nvnhung.bitbucket.io/img/bride-and-groom.svg</image:loc>
+	<image:title>bride and-groom</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>nvnhung.bitbucket.io/img/</image:loc>
