@@ -79,4 +79,23 @@
         font-size: 14px;
         list-style: none;
     }
+
+}
+@media only screen and (max-width: 768px) {
+    .timeline-item:last-child .timeline-item-tail{
+        display: initial;
+    }
+    .timeline-item-tail {
+        left: -2px !important;
+        right: auto;
+    }
+    .timeline-item-content{
+        margin-left: 10px !important;
+        transform: translate(0px,10px) !important;
+    }
+    .timeline-item-head{
+        flex-direction: row !important;
+        left: 0 !important;
+        transform: translate(-16px, -30px) !important;
+    }
 }

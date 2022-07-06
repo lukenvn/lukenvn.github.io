@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>nvnhung.bitbucket.io</loc>
-	<lastmod>2022-06-28</lastmod>
+	<lastmod>2022-07-06</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -12,6 +12,22 @@
 	<image:image>
 	<image:loc>nvnhung.bitbucket.io/img/IMG_20220530_144506%20copy.jpg</image:loc>
 	<image:title>IMG_20220530_144506 copy</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>nvnhung.bitbucket.io/img/church.svg</image:loc>
+	<image:title>church</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>nvnhung.bitbucket.io/img/bride.svg</image:loc>
+	<image:title>bride</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>nvnhung.bitbucket.io/img/groom.svg</image:loc>
+	<image:title>groom</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>nvnhung.bitbucket.io/img/bride-and-groom.svg</image:loc>
+	<image:title>bride and-groom</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>nvnhung.bitbucket.io/img/z3478449019454_7eee2613df2af4c158f253661b05baec.jpg</image:loc>
@@ -56,22 +72,6 @@
 	<image:image>
 	<image:loc>nvnhung.bitbucket.io/img/IMG_20220529_124527.jpeg</image:loc>
 	<image:title>z3478449031026_d315821b7667456d69635c77245ce417</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>nvnhung.bitbucket.io/img/church.svg</image:loc>
-	<image:title>church</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>nvnhung.bitbucket.io/img/bride.svg</image:loc>
-	<image:title>bride</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>nvnhung.bitbucket.io/img/groom.svg</image:loc>
-	<image:title>groom</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>nvnhung.bitbucket.io/img/bride-and-groom.svg</image:loc>
-	<image:title>bride and-groom</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>nvnhung.bitbucket.io/img/</image:loc>
