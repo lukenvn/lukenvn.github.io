@@ -61,7 +61,7 @@ $(document).ready(function() {
 <div class="page-container">
     
 <!-- hero1 -->
-<div class="bloc bloc-fill-screen bloc-bg-texture texture-darken b-parallax d-lg-flex   d-none d-bloc " id="hero1">
+<div class="bloc bloc-fill-screen bloc-bg-texture texture-darken b-parallax d-lg-flex   d-none d-bloc" id="hero1">
 	<div class="parallax bg-TRU-3565">
 	</div>
 	<div class="container">
@@ -138,18 +138,36 @@ $(document).ready(function() {
 				</h2>
 				<div class="text-center">
 					<span class="fa fa-angle-down icon-md wedding-icon icon-pale-brown"></span>
-					<p class="mg-clear p-style text-lg-center scroll-fx-up-in">
-						Chào mừng bạn đã đến với hanhnhung.one! <br><br>Chúng mình rất vui được đón tiếp bạn tại Tiệc cưới vì bạn chính là một trong những mắt xích quan trọng giúp chúng mình tìm thấy nhau và tiến tới hôn nhân như ngày hôm nay. <br><br>
+					<p class="mg-clear p-style scroll-fx-up-in text-lg-center">
+						Chào mừng bạn đã đến với hanhnhung.one! <br>
 					</p>
-					<p class="mg-clear p-style text-lg-center scroll-fx-up-in">
-						Chúng mình cũng như những cặp đôi khác, là những người xa lạ, khác nhau hoàn toàn về sở thích &amp; tính cách. Chúng mình có những cuộc sống rất riêng và rất khác…thế nhưng lại vô tình “say” chỉ bởi một ánh mắt, một nụ cười của đối phương. <br>
+					<p class="mg-clear p-style scroll-fx-up-in text-justify">
+						<br>Chúng mình rất vui được đón tiếp bạn tại Tiệc cưới vì bạn chính là một trong những mắt xích quan trọng giúp chúng mình tìm thấy nhau và tiến tới hôn nhân như ngày hôm nay. <br>
 					</p>
-					<p class="mg-clear p-style text-lg-center scroll-fx-up-in">
+					<p class="mg-clear p-style scroll-fx-up-in text-justify object-hidden about-to-hide">
+						<br>Chúng mình cũng như những cặp đôi khác, là những người xa lạ, khác nhau hoàn toàn về sở thích &amp; tính cách. Chúng mình có những cuộc sống rất riêng và rất khác…thế nhưng lại vô tình “say” chỉ bởi một ánh mắt, một nụ cười của đối phương. <br>
+					</p>
+					<p class="mg-clear p-style scroll-fx-up-in text-justify object-hidden about-to-hide">
 						<br>Trải qua hơn 8 năm với nhiều niềm vui xen lẫn nỗi buồn, nhiều điều hạnh phúc giản dị nhưng cũng có nhiều sự bất đồng, nhiều cuộc tranh luận gay gắt đến mức tưởng chừng như muốn dừng lại, chúng mình đã nhận ra rằng yêu nhau thôi chưa đủ mà còn phải thương nữa. Chính vì yêu, vì thương mà cả hai chúng mình đã cùng nhau tốt hơn mỗi ngày, đã vì nhau mà thay đổi để hoàn thiện mình hơn mỗi ngày. Chính vì những khác biệt mà chúng mình đã trở thành những mảnh ghép hoàn hảo của nhau để cùng nhau đi đến trạm tiếp theo của chuyến tàu mang tên “hạnh phúc”.<br>
 					</p>
-					<p class="mg-clear p-style text-lg-center scroll-fx-up-in">
+					<p class="mg-clear p-style scroll-fx-up-in text-justify object-hidden about-to-hide">
 						<br>Tiệc cưới chính là dịp để chúng mình chia sẻ niềm vui, niềm hạnh phúc đến tất cả mọi người. Đây cũng là dịp để chúng mình bày tỏ lòng biết ơn đến các bậc sinh thành đã vất vả nuôi dạy để chúng mình có được mọi điều tốt đẹp như hiện tại. Chúng mình cũng muốn gửi lời cảm ơn tất cả các bạn – những người đã xuất hiện và ở bên cạnh chúng mình trong những năm tháng qua. Các bạn chính là một phần không thể thiếu trong những năm tháng tuổi trẻ của chúng mình! <br><br>
 					</p>
+					<div class=" scroll-fx-up-in">
+						<a href="#" id="showMoreStory" style="color:#B9AC1A" onclick="(function(){
+   $('#story .about-to-hide').removeClass('object-hidden'); 
+	$('#showMoreStory').addClass('object-hidden');
+	$('#showLessStory').removeClass('object-hidden');
+    return false;
+})();return false;">Read more</a>
+<a href="#" id="showLessStory" style="color:#B9AC1A" class="object-hidden" onclick="(function(){
+   $('#story .about-to-hide').addClass('object-hidden'); 
+	$('#showLessStory').addClass('object-hidden');
+	$('#showMoreStory').removeClass('object-hidden');
+    return false;
+})();return false;">Read Less</a>
+						
+					</div>
 				</div>
 			</div>
 		</div>
@@ -295,7 +313,7 @@ $(document).ready(function() {
 									Nhà thờ giáo xứ La Dày<br>Hàm Thuận Bắc<br>Bình Thuận
 								</h5>
 								<h5 class="text-lg-center tc-outer-space text-center text-start text-md-end text-sm-start">
-									<a class="wedding-map-link float-lg-end float-sm-none" href="https://goo.gl/maps/poJN3oxV9voNgJHD7" target="_blank">Xem bản đồ</a>
+									<a class="wedding-map-link float-lg-end float-sm-none" href="https://www.google.com/maps/place/Nh%C3%A0+Th%E1%BB%9D+Gi%C3%A1o+X%E1%BB%A9+La+D%C3%A0y,+La+D%C3%A0y,+%C4%90a+Mi,+H%C3%A0m+Thu%E1%BA%ADn+B%E1%BA%AFc,+B%C3%ACnh+Thu%E1%BA%ADn,+Vietnam/@11.3018908,107.92159,18z/data=!3m1!1e3!4m5!3m4!1s0x31741ba2dce3791d:0xa7e14efdb842b3!8m2!3d11.3019802!4d107.9215766?hl=en" id="church-place-" target="_blank">Xem bản đồ</a>
 								</h5>
 							</div>
 						</li>
@@ -316,7 +334,7 @@ $(document).ready(function() {
 									Chung-Tam Villa<br>La Dày, Hàm Thuận Bắc<br>Bình Thuận<br>
 								</h5>
 								<h5 class="tc-outer-space text-center text-start text-lg-start text-md-start text-sm-start">
-									<a class="wedding-map-link float-lg-none" href="https://goo.gl/maps/qReExnXfP8YKWAdu6" target="_blank">Xem bản đồ</a>
+									<a class="wedding-map-link float-lg-none" href="https://www.google.com/maps/place/11%C2%B020'20.3%22N+107%C2%B056'06.3%22E/@11.3389722,107.9350833,17z/data=!3m1!1e3!4m4!3m3!8m2!3d11.3389722!4d107.9350833?hl=en" id="female-site" target="_blank">Xem bản đồ</a>
 								</h5>
 							</div>
 						</li>
@@ -337,7 +355,7 @@ $(document).ready(function() {
 									Nhà chú rể<br>Hồng Nguyên, Quỳnh Hồng, Quỳnh Lưu<br>Nghệ &nbsp;An
 								</h5>
 								<h5 class="text-lg-center tc-outer-space text-center text-start text-md-end text-sm-start">
-									<a class="wedding-map-link float-lg-end" href="https://goo.gl/maps/rnWdWmuPGLhEWAtT6" target="_blank">Xem bản đồ</a>
+									<a class="wedding-map-link float-lg-end" href="https://www.google.com/maps/place/19%C2%B008'25.2%22N+105%C2%B037'53.2%22E/@19.1401206,105.6316344,19z/data=!3m1!1e3!4m4!3m3!8m2!3d19.140332!4d105.631445" target="_blank">Xem bản đồ</a>
 								</h5>
 							</div>
 						</li>
@@ -499,7 +517,7 @@ $(document).ready(function() {
 <!-- quote END -->
 
 <!-- rsvp -->
-<div class="bloc tc-outer-space wedding-adjustive-padding b-parallax bloc-bg-texture texture-darken l-bloc" id="rsvp">
+<div class="bloc tc-outer-space wedding-adjustive-padding b-parallax bloc-bg-texture texture-darken l-bloc " id="rsvp">
 	<div class="parallax bg-TRU-3549">
 	</div>
 	<div class="container bloc-no-padding">
@@ -511,7 +529,7 @@ $(document).ready(function() {
 				<div class="text-center scroll-fx-up-in-fade">
 					<span class="fa fa-angle-down icon-md wedding-icon icon-pale-brown"></span>
 				</div>
-				<form id="attending-form" data-form-type="blocs-form" action="https://script.google.com/macros/s/AKfycbzFvuspAnpT0D4zXuPOOE36OCnp0_Rk9Ud3OZ08GuYS6b61MyBxrqBBiH-okiekwEgj/exec" method="GET">
+				<form id="attending-form" data-form-type="blocs-form" action="https://script.google.com/macros/s/AKfycbwRzsIZi5FnBiF04l1iBxBXuu-CKd79h8-I2hf2aC4Qmz9SfnhnsED3wqzdAhdgVUw/exec" method="GET">
 					<div class="row">
 						<div class="col-12 col-sm-6 col-lg-12">
 							<div class="form-group mb-3">
@@ -520,38 +538,63 @@ $(document).ready(function() {
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-12 col-sm-6 offset-lg--1 col-lg-12">
-							<div class="form-group mb-3">
-								<select class="form-control" id="number_of_guest" name="number_of_guest">
-									<option value="0">
-										Số lượng người tham dự
-									</option>
-									<option value="no">
-										Không tham dự được
-									</option>
-									<option value="not sure">
-										Chưa chắc
-									</option>
-									<option value="1">
-										Một
-									</option>
-									<option value="2">
-										Hai
-									</option>
-									<option value="3">
-										Ba
-									</option>
-									<option value="4">
-										Bốn
-									</option>
-								</select>
-							</div>
+						<div class="col">
+							<select class="form-control" id="number_of_guest" name="location">
+								<option value="La Dày">
+									La Dày
+								</option>
+								<option value="no">
+									Không tham dự được
+								</option>
+								<option value="not sure">
+									Chưa chắc
+								</option>
+								<option value="1">
+									Một
+								</option>
+								<option value="2">
+									Hai
+								</option>
+								<option value="3">
+									Ba
+								</option>
+								<option value="4">
+									Bốn
+								</option>
+							</select>
+						</div>
+						<div class="col">
+							<select class="form-control" name="number_of_guest" id="select_2074">
+								<option value="0">
+									Số lượng người tham dự
+								</option>
+								<option value="no">
+									Không tham dự được
+								</option>
+								<option value="not sure">
+									Chưa chắc
+								</option>
+								<option value="1">
+									Một
+								</option>
+								<option value="2">
+									Hai
+								</option>
+								<option value="3">
+									Ba
+								</option>
+								<option value="4">
+									Bốn
+								</option>
+							</select>
 						</div>
 					</div>
-					<div class="form-group mb-3">
-						<textarea id="message" class="form-control wedding-form-field" rows="4" cols="50" required placeholder="Message" name="message"></textarea>
+					<div class="row">
+						<div class="col">
+							<textarea id="message" class="form-control wedding-form-field mt-3" rows="4" cols="50" required placeholder="Message" name="message"></textarea>
+						</div>
 					</div> 
-					<button class="bloc-button btn btn-d btn-lg wedding-button btn-sq w-100" type="submit" id="submit-form">
+					<button class="bloc-button btn btn-d btn-lg wedding-button btn-sq w-100 mt-3" type="submit" id="submit-form">
 						Submit
 					</button>
 				</form>
@@ -588,7 +631,7 @@ $(document).ready(function() {
 <script>
 
 var $form = $('form#attending-form'),
-    url = 'https://script.google.com/macros/s/AKfycbwtiPWMDEVdhDKl6A9OQ12pm0aaNq3rb_zw2cciTirxEkvqns11GGcJjh-1DTJdRM0L/exec'
+    url = 'https://script.google.com/macros/s/AKfycbwRzsIZi5FnBiF04l1iBxBXuu-CKd79h8-I2hf2aC4Qmz9SfnhnsED3wqzdAhdgVUw/exec'
 
 function getFormData($form) {
     var unindexed_array = $form.serializeArray();
@@ -609,9 +652,15 @@ $('#submit-form').on('click', function(e) {
         data: getFormData($form)
     };
     console.log(request);
-    var jqxhr = $.ajax(request).done(() => {
+	try{
+		
+var jqxhr = $.ajax(request).done(() => {
             alert("Thank for your information");
     })
+    }catch(e){
+	   console.error(e);
+	}
+    
 })
 
 </script>
