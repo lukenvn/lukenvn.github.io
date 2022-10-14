@@ -153,7 +153,7 @@ $(document).ready(function() {
 					<p class="mg-clear p-style scroll-fx-up-in text-justify object-hidden about-to-hide">
 						<br>Tiệc cưới chính là dịp để chúng mình chia sẻ niềm vui, niềm hạnh phúc đến tất cả mọi người. Đây cũng là dịp để chúng mình bày tỏ lòng biết ơn đến các bậc sinh thành đã vất vả nuôi dạy để chúng mình có được mọi điều tốt đẹp như hiện tại. Chúng mình cũng muốn gửi lời cảm ơn tất cả các bạn – những người đã xuất hiện và ở bên cạnh chúng mình trong những năm tháng qua. Các bạn chính là một phần không thể thiếu trong những năm tháng tuổi trẻ của chúng mình! <br><br>
 					</p>
-					<div class=" scroll-fx-up-in">
+					<div class=" scroll-fx-up-in ">
 						<a href="#" id="showMoreStory" style="color:#B9AC1A" onclick="(function(){
    $('#story .about-to-hide').removeClass('object-hidden'); 
 	$('#showMoreStory').addClass('object-hidden');
@@ -552,7 +552,7 @@ $(document).ready(function() {
 							</select>
 						</div>
 						<div class="col">
-							<select class="form-control " name="number_of_guest" id="select_2074">
+							<select class="form-control" name="number_of_guest" id="select_2074">
 								<option value="0">
 									Number of guests
 								</option>
@@ -623,7 +623,7 @@ var $form = $('form#attending-form'),
 
 function getFormData($form) {
     var unindexed_array = $form.serializeArray();
-    var indexed_array = {};
+    var indexed_array = {"time":(new Date()).toISOString()};
 
     $.map(unindexed_array, function(n, i) {
         indexed_array[n['name']] = n['value'];
