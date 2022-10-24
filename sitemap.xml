@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>nvnhung.bitbucket.io</loc>
-	<lastmod>2022-10-17</lastmod>
+	<lastmod>2022-10-24</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -130,7 +130,7 @@
 	<image:title>chure.jpeg</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>nvnhung.bitbucket.io/img/TRU_3193.JPG</image:loc>
+	<image:loc>nvnhung.bitbucket.io/img/TRU_3269.JPG</image:loc>
 	<image:title>z3478449008572_840119ab67dca9139b8cc92faae76cd0</image:title>
 	</image:image>
 	<image:image>
@@ -142,8 +142,12 @@
 	<image:title>TRU_3319.JPG</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>nvnhung.bitbucket.io/img/TRU_3703.JPG</image:loc>
+	<image:loc>nvnhung.bitbucket.io/img/TRU_3456.JPG</image:loc>
 	<image:title>z3478449031026_d315821b7667456d69635c77245ce417</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>nvnhung.bitbucket.io/img/TRU_3236.JPG</image:loc>
+	<image:title>z3478449016388_bbfda84f1df4dc02966d30304e53ceb7</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>nvnhung.bitbucket.io/img/TRU_3640.JPG</image:loc>
@@ -159,10 +163,6 @@
 	</image:image>
 	<image:image>
 	<image:loc>nvnhung.bitbucket.io/img/TRU_3768.JPG</image:loc>
-	<image:title>z3478449016388_bbfda84f1df4dc02966d30304e53ceb7</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>nvnhung.bitbucket.io/img/TRU_3816.JPG</image:loc>
 	<image:title>z3478449016388_bbfda84f1df4dc02966d30304e53ceb7</image:title>
 	</image:image>
 	<image:image>
