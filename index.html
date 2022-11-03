@@ -61,7 +61,7 @@ $(document).ready(function() {
 <div class="page-container">
     
 <!-- hero1 -->
-<div class="bloc bloc-fill-screen d-lg-flex   d-none b-parallax bloc-bg-texture texture-vertical-lines d-bloc " id="hero1">
+<div class="bloc bloc-fill-screen d-lg-flex   d-none b-parallax bloc-bg-texture texture-vertical-lines d-bloc" id="hero1">
 	<div class="parallax bg-TRU-3432">
 	</div>
 	<div class="container">
@@ -73,7 +73,7 @@ $(document).ready(function() {
 				<h3 class="mg-md float-none text-center tc-white sm-shadow">
 					<i>are getting married&nbsp;</i>
 				</h3>
-				<div class=" object-hidden">
+				<div class=" object-hidden ">
 					<div class="count-down-clock">
                         <div id="clock1" class="clock" data-date="2022/10/30"><div class="box"><div>00</div> <span>Days</span> </div><div class="box"><div>00</div> <span>Hours</span> </div><div class="box"><div>00</div> <span>Mins</span> </div><div class="box"><div>00</div> <span>Secs</span> </div></div>
                     </div>
@@ -531,7 +531,7 @@ $(document).ready(function() {
 				<div class="text-center scroll-fx-up-in-fade">
 					<span class="fa fa-angle-down icon-md wedding-icon icon-pale-brown"></span>
 				</div>
-				<form id="attending-form" data-form-type="blocs-form" action="https://script.google.com/macros/s/AKfycbwRzsIZi5FnBiF04l1iBxBXuu-CKd79h8-I2hf2aC4Qmz9SfnhnsED3wqzdAhdgVUw/exec" method="GET">
+				<form id="attending-form" data-form-type="blocs-form" action="https://strapi.eximias.com/api/contacts" method="POST">
 					<div class="row">
 						<div class="col-12 col-sm-6 col-lg-12">
 							<div class="form-group mb-3">
@@ -542,14 +542,14 @@ $(document).ready(function() {
 					<div class="row">
 						<div class="col">
 							<select class="form-control" id="number_of_guest" name="location">
-								<option value="La Dày">
-									La Dày
+								<option value="Sài Gòn">
+									Sài Gòn
 								</option>
 								<option value="0">
 									Attend all events
 								</option>
-								<option value="Sài Gòn">
-									Sài Gòn
+								<option value="La Dày">
+									La Dày
 								</option>
 							</select>
 						</div>
@@ -621,11 +621,11 @@ $(document).ready(function() {
 <script>
 
 var $form = $('form#attending-form'),
-    url = 'https://script.google.com/macros/s/AKfycbwRzsIZi5FnBiF04l1iBxBXuu-CKd79h8-I2hf2aC4Qmz9SfnhnsED3wqzdAhdgVUw/exec'
+    url = 'https://backend.nhungnv.com/api/hanhnhungs'
 
 function getFormData($form) {
     var unindexed_array = $form.serializeArray();
-    var indexed_array = {"time":(new Date()).toISOString()};
+    var indexed_array = {};
 
     $.map(unindexed_array, function(n, i) {
         indexed_array[n['name']] = n['value'];
@@ -635,22 +635,20 @@ function getFormData($form) {
 }
 $('#submit-form').on('click', function(e) {
     e.preventDefault();
-    const request = {
-        url: url,
-        method: "GET",
-        dataType: "json",
-        data: getFormData($form)
-    };
-    console.log(request);
-	try{
-		
-var jqxhr = $.ajax(request).done(() => {
-            alert("Thank for your information");
-    })
-    }catch(e){
-	   console.error(e);
-	}
-    
+const data= getFormData($form);
+	const options = {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({data}),
+            }
+            const response = fetch(url, options).then(s=>{
+
+            alert(`Thank for your infomation ${data.name}!`)
+
+			});
+
 })
 
 </script>
